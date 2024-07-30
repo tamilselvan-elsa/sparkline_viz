@@ -1,0 +1,27 @@
+{
+	"scripts": {
+		"start": "webpack-dev-server",
+		"dev": "webpack-dev-server",
+		"build": "webpack"
+	},
+	"devDependencies": {
+		"@types/topojson": "^3.2.3",
+		"copy-webpack-plugin": "^6.4.1",
+		"css-loader": "^5.2.6",
+		"file-loader": "^6.2.0",
+		"to-string-loader": "^1.1.6",
+		"ts-loader": "^9.5.1",
+		"typescript": "^3.9.9",
+		"url-loader": "^4.1.1",
+		"webpack": "^5.92.1",
+		"webpack-cli": "^5.1.4",
+		"webpack-dev-server": "^5.0.4"
+	},
+	"dependencies": {
+		"@fnando/sparkline": "^0.3.10",
+		"@types/node": "^11.15.54",
+		"chroma": "0.0.1",
+		"lodash": "^4.17.21",
+		"numeral": "^2.0.6"
+	}
+}
